@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ASMITA CSS样式生成工具</title>
+	<script src="./js/jquery.js"></script>
+	<script src="./js/general_css.js"></script>
+</head>
+<body>
+    <div class="container" id="container">
+        <h3>ASMITA CSS样式生成工具 示例文档</h3>
+        <p class="">请打开console查看生成结果</p>
+        <div class="test test2
+        test3
+">
+            <P>
+                大写P标签
+                <a href="#">
+                    a标签
+                    <img src="" alt="">
+                    <span class="test">span标签</span>
+                </a>
+            </P>
+        </div>
+        <header>
+            <nav>
+                <li>li标签</li>
+                <li class="active">带css的li标签</li>
+                <li>li标签</li>
+            </nav>
+        </header>
+    </div>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/general_css.js"></script>
+    <script>
+        $(document).ready(function () {
+            let css_out=filter_the_same_css(asmita_general_css($("body"),"",""));
+            console.log(css_out);
+        })
+
+    </script>
+</body>
+</html>
