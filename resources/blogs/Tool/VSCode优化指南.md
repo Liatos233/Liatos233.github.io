@@ -69,3 +69,61 @@
 function foo() {}
 //#endregion
 ```
+
+## 7 插件
+
+1. Volar
+
+- vue 开发必备
+
+2. Auto Import
+
+- 自动识别导入依赖
+
+3. ChatGPT GPT-4
+
+- ChatGPT 支持
+
+4. Code Translate
+
+- 代码 hover 翻译
+
+5. Codeium
+
+- AI 代码生成解释注释重构
+
+6. ES7+ React/Redux
+
+- React 开发必备
+
+7. Eslint
+
+- 代码规范约束
+
+8. file-jump
+
+- ctrl 单击文件跳转
+
+9. Git Graph
+
+- git 提交记录路径可视化
+
+10. IntelliCode
+
+- AI 代码编写辅助
+
+11. Material Icon Theme
+
+- Material 风格主题
+
+12. Prettier
+
+- 代码风格统一
+
+13. Pretty TypeScript Errors
+
+- 更易读的 ts 错误
+
+14. Tabnine
+
+- AI 工具
