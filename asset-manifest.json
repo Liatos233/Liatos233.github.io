@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.77600453.css",
-    "main.js": "/static/js/main.574a1dbe.js",
+    "main.js": "/static/js/main.68002ab0.js",
     "static/media/第2卷_毛泽东选集.pdf": "/static/media/第2卷_毛泽东选集.e43179ca9d99bfb538bd.pdf",
     "static/media/第1卷_毛泽东选集.pdf": "/static/media/第1卷_毛泽东选集.b8050ccca497416aa914.pdf",
     "static/media/第3卷_毛泽东选集.pdf": "/static/media/第3卷_毛泽东选集.eb0a58ec66e525e00479.pdf",
@@ -333,6 +333,6 @@
   },
   "entrypoints": [
     "static/css/main.77600453.css",
-    "static/js/main.574a1dbe.js"
+    "static/js/main.68002ab0.js"
   ]
 }
